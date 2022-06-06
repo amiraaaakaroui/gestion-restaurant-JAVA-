@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fff7f3;" stylesheets="@../application/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Accueilcontroller">
+   <children>
+      <ImageView fx:id="myImageView" fitHeight="400.0" fitWidth="600.0" layoutY="18.0" onDragDetected="#displayImage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bbb.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="250.0" layoutY="27.0" prefHeight="53.0" prefWidth="130.0" text="yummy" textAlignment="CENTER" textFill="#6978e8">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font></Label>
+      <ImageView fx:id="comm" fitHeight="150.0" fitWidth="200.0" layoutX="220.0" layoutY="120.0" onDragDetected="#displayImagem" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@comm.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caisse" fitHeight="150.0" fitWidth="200.0" layoutX="40.0" layoutY="95.0" onDragDetected="#displayImagec" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@caisse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="foood" fitHeight="150.0" fitWidth="150.0" layoutX="403.0" layoutY="87.0" onDragDetected="#displayImagef" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@food.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="71.0" layoutY="230.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="89.0" styleClass="Buttom" text="Caisse" textFill="#fffdfd" />
+      <Button layoutX="251.0" layoutY="261.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="89.0" styleClass="Buttom" text="Commande" textFill="#fffafa" />
+      <Button layoutX="433.0" layoutY="230.0" mnemonicParsing="false" onAction="#switchToPlats" prefHeight="30.0" prefWidth="83.0" styleClass="Buttom" stylesheets="@style.css" text="food" textFill="WHITE" AnchorPane.rightAnchor="84.0" />
+   </children>
+</AnchorPane>

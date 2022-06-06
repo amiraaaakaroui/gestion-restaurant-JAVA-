@@ -1,0 +1,16 @@
+
+.Buttom{
+	-fx-background-color:#768eed;
+	-fx-background-radius:50;
+	 -fx-outline:none;
+  -fx-height: 40px;
+  -fx-text-align: center;
+  -fx-width: 130px;
+  -fx-border:40px;
+  -fx-background: #fff;
+  }
+  .Buttom:hover{
+	-fx-background-color: #ff8798;
+	-fx-background-radius:50;
+	
+	}
